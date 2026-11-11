@@ -1,0 +1,21 @@
+{
+  "version": "0.0.1",
+  "description": "Cron-powered GUI for Windows Task Scheduler, focused on the tasks you created.",
+  "homepage": "https://github.com/galivea/tockola",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/galivea/tockola/releases/download/v0.0.1/tockola_0.0.1_x64_portable.zip",
+      "hash": "d3b5e9ea851aea0d20c7187a757ee99a3afa079b8a245d7f85e1d698e745e6b3"
+    }
+  },
+  "bin": "tockola.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/galivea/tockola/releases/download/v$version/tockola_$version_x64_portable.zip"
+      }
+    }
+  }
+}
